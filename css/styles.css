@@ -1,0 +1,459 @@
+body {
+    margin: 0px;
+}
+img.abt {
+    width: 25%;
+    float: left;
+    margin: 1%;
+}
+.music{
+  display: none;
+}
+a.afoot {
+    margin-right: 6%;
+}
+a{
+  color:white !important;
+}
+img.bredcrumb {
+    display: none;
+    width: 30px;
+}
+.scroll{
+  height: 500px;
+  overflow-y: scroll;
+}
+.navigation {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+a.button {
+    padding: 14px 22px 14px 23px;
+    background: transparent;
+    border-radius: 18px;
+    border: 2px solid white;
+}
+a.button:hover {
+    background: red;
+    color: white;
+    transition: 0.5s;
+
+     border: solid red 2px
+}
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: center;
+}
+td.lyrics {
+    border: 2px solid white;
+	width:50%;
+}
+p.lyr {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    padding: 1em;
+    color: white;
+    background: transparent;
+    transition: 0.5s;
+}
+p.lyr:hover {
+    background: red;
+    color: white;
+}
+.margin {
+    margin: 2%;
+    color: white;
+    margin-top: unset;
+    background: #00000085;
+    padding: 2%;
+}
+p.question {
+    font-weight: bolder;
+    color: #f94545;
+    font-size: 19px;
+}
+p.answer {
+    color: #f1f1f1ba;
+    font-size: 19px;
+}
+nav{
+    width: 100%;
+    text-align:center;
+    background: red;
+    padding: 2%;
+    box-shadow: 0px 0px 10px 0px;
+}
+.mc {
+    background: linear-gradient(to top,#ff0000 ,black 100%);
+    padding-bottom: 5em;
+}
+*{
+  box-sizing: border-box;
+}
+header {
+	text-align:center;
+  background: red;
+}
+footer {
+    display: flex;
+    background:red;
+    color: white;
+}
+a.anch {
+    background: red;
+    text-decoration: none;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 0px black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a.anch1 {
+    background: #ff4747;
+    text-decoration: none;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10%;
+    box-shadow: inset 0px 0px 15px 0px;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+a.anch:hover {
+    color: white;
+    background: #ff4747;
+    transition-duration: 0.5s;
+    box-shadow: inset 0px 0px 15px 0px;
+}
+img.logo {
+    width: 165px;
+    background: white;
+	border-radius: 100%;
+}
+a {
+    text-decoration: none;
+}
+a.foot {
+color:white;
+text-decoration:underline;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 30px;
+    color: white;
+}
+.QL {
+    width: 33%;
+    text-align: center;
+    border: dashed 2px white;
+}
+p.bp {
+    font-weight: bold;
+}
+.QA {
+    text-align: center;
+    width: 33%;
+    border: dashed 2px white;
+    border-left: unset;
+}
+.social_media {
+    width: 34%;
+    text-align: center;
+    border: 2px dashed;
+    border-left: unset;
+}
+.box.b2 {
+    color: red;
+    box-shadow: inset 2px 2px 20px 2px white;
+    height: 400px;
+    background: white url(../img/violin.png);
+    background-size: 300px;
+    background-position-y: 60px;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 36%;
+    border-radius: 100%;
+    text-shadow: 1px 1px 1px black;
+}
+.box.b3 {
+    text-shadow: 1px 1px 1px black;
+    color: red;
+    box-shadow: inset 2px 2px 20px 2px white;
+    height: 400px;
+    background: white url(../img/tabla.png);
+    background-size: 275px;
+    background-position-y: 80px;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    transition: 0.5s;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 36%;
+    border-radius: 100%;
+}
+.box.b4 {
+    text-shadow: 1px 1px 1px black;
+    color: red;
+    box-shadow: inset 2px 2px 20px 2px white;
+    height: 400px;
+    background: white url(../img/casio.png);
+    background-size: 300px;
+    background-position-y: 150px;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 34%;
+    border-radius: 100%;
+}
+.box.b5 {
+    text-shadow: 1px 1px 1px black;
+    color: red;
+    box-shadow: inset 2px 2px 20px 2px white;
+    height: 400px;
+    background: white url(../img/drums.png);
+    background-size: 295px;
+    background-position-y: 130px;
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 42%;
+    border-radius: 100%;
+}
+.flex {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+.box:hover {
+    color: black;
+    box-shadow: inset 2px 3px 20px 2px black;
+    text-shadow: 1px 1px 1px;
+}
+p.heading {
+    text-align: center;
+    margin: 5%;
+    font-size: 26px;
+    text-shadow: 1px 0px 0px #ffffff8c;
+    color: red;
+    padding-top: 1em;
+    -webkit-margin-before:0em;
+}
+a.ly {
+    height: 400px;
+    width: 20em;
+    margin-left:10px;
+	border-radius: 163px;
+}
+@media (max-width:575px){
+  td.audi:hover {
+    height: unset;
+    width: unset;
+    border-radius: unset;
+    background: #00000054;
+}
+td.audi {
+    overflow: hidden;
+    height: 33px;
+    background: white;
+    display: block;
+    width: 10%;
+    border-radius: 100%;
+    position: fixed;
+    top: 20%;
+    z-index: 1;
+    right: 0;
+}
+  a.anch {
+      width: 100%;
+      margin-top: 10px;
+  }
+  .hover {
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    overflow: hidden;
+    width: 9%;
+}
+.hover:hover {
+    width: unset;
+    height: unset;
+}
+img.bredcrumb {
+    display: unset;
+}
+  a.anch1 {
+    background: #ff4747;
+    text-decoration: none;
+    padding: 6%;
+    border-radius: 10px;
+    padding-left: 10%;
+    box-shadow: inset 0px 0px 15px 0px;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+a.anch {
+    background: red;
+    text-decoration: none;
+    padding: 6%;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 0px black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.head{
+    text-align: -webkit-center;
+}
+nav {
+    width: 100%;
+    text-align: center;
+    background: red;
+    padding: 2%;
+    box-shadow: 2px -1px 10px 0px;
+}
+	footer {
+    flex-direction: column;
+}
+footer {
+flex-direction: row;
+}
+.QL {
+    text-align: center;
+	margin-left: 0px;
+    border-right: unset;
+    width: 50%;
+}
+.QA {
+    text-align: center;
+    width:50%;
+    border-right:unset;
+}
+.social_media {
+   	display: none;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 25px;
+    margin-right:0px;
+    margin-top: 25px;
+    color: white;
+}
+article {
+    text-align: -webkit-center;
+}
+.flex {
+	width: 50%;
+       flex-direction: column;
+	text-align: -webkit-center;
+}
+a.ly {
+    height: unset;
+    width: unset;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+}
+.box.b2 {
+    color: red;
+    box-shadow: none;
+    height: unset;
+    width: unset;
+    padding: 5px 0px 160px 0px;
+    background: white url(../img/violin.png);
+    background-size: contain;
+    background-position-y: 0px;
+    border-radius: 10px;
+    transition: 0s;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+.box.b3 {
+    color: red;
+    box-shadow: none;
+    height: unset;
+    width: unset;
+    padding: 5px 0px 160px 0px;
+    background: white url(../img/tabla.png);
+    background-size: contain;
+    background-position-y: 0px;
+    border-radius: 10px;
+    transition: 0s;
+    background-repeat: no-repeat;
+    background-position-x: 4px;
+}
+.box.b4 {
+    color: red;
+    box-shadow: none;
+    height: unset;
+    width: unset;
+    padding: 5px 0px 160px 0px;
+    background: white url(../img/casio.png);
+    background-size: contain;
+    background-position-y: 30px;
+    border-radius: 10px;
+    transition: 0s;
+    background-repeat: no-repeat;
+    background-position-x: 4px;
+}
+.box.b5 {
+    color: red;
+    box-shadow: none;
+    height: unset;
+    width: unset;
+    padding: 5px 0px 160px 0px;
+    background: white url(../img/drums.png);
+    background-size: contain;
+    background-position-y: 30px;
+    border-radius: 10px;
+    transition: 0s;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+.box:hover {
+    color: black;
+    box-shadow: inset 2px 3px 20px 2px black;
+    text-shadow: 1px 1px 1px;
+}
+td.lyrics {
+    border: 2px solid white;
+    float: left;
+    width: 100%;
+}
+.but{
+	width: 100%;
+    height: 60px;
+	float:left;
+	}
+.oudi
+{
+border: 2px solid white;
+}
+.music{
+  display:block;
+}
+img.abt {
+    width: 100%;
+    float: left;
+    margin-right: 15px;
+}
+}
